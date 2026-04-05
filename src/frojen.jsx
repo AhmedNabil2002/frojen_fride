@@ -132,7 +132,9 @@ export default function FrozenFriesERP() {
 
   return (
     <div style={{
-      display: "flex", height: "100vh", fontFamily: "'Noto Kufi Arabic', 'Segoe UI', sans-serif",
+      display: "flex", width: "100vw", height: "100vh",
+      position: "fixed", top: 0, left: 0, zIndex: 1000,
+      fontFamily: "'Noto Kufi Arabic', 'Segoe UI', sans-serif",
       direction: "rtl", background: "#F0F2F5", color: "#1A1D23", overflow: "hidden",
     }}>
       <style>{`
